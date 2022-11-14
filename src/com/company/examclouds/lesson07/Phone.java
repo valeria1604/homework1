@@ -26,6 +26,17 @@ public class Phone {
         System.out.println("Звонит: " + name + " номер телефона: "+ number);
     }
 
+    public static void sendMessage(int ... numbers){
+        for(int i =0; i<numbers.length; i++){
+            System.out.println("Номер"+ i+1 + ": " + numbers[i]);
+        }
+    }
+
+    public static void sendMessage(String ... numbers){
+        for(String number: numbers){
+            System.out.print(number + ", ");
+        }
+    }
 
     public int getNumber() {
         return number;

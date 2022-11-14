@@ -1,5 +1,7 @@
 package com.company.examclouds.lesson07;
 
+import java.util.Scanner;
+
 public class PhoneMain {
     public static void main(String[] args) {
         Phone firstPhone = new Phone(1010101, 34, "A-400");
@@ -9,6 +11,17 @@ public class PhoneMain {
 
         fourthPhone.setWeight(37);
 
+        //taskFrom1To8(firstPhone, secondPhone, thirdPhone, fourthPhone);
+        task9();
+    }
+
+    private static void task9() {
+        Phone.sendMessage(340404, 455666, 555666);
+        Phone.sendMessage("404040", "303303", "4944", "5959595", "657775");
+        //TODO убрать последнюю запятую, поставить точку
+    }
+
+    private static void taskFrom1To8(Phone firstPhone, Phone secondPhone, Phone thirdPhone, Phone fourthPhone) {
         System.out.println(firstPhone);
         System.out.println(secondPhone);
         System.out.println(thirdPhone);
