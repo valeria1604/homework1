@@ -16,7 +16,7 @@ public class PhoneMain {
 
         Phone.receiveCall("Анатолий");
         System.out.println("Номер: " + firstPhone.getNumber());
-        Phone.receiveCall("Андрей");
+        Phone.receiveCall("Андрей", 3030303);
         System.out.println("Номер: " + secondPhone.getNumber());
         Phone.receiveCall("Александр");
         System.out.println("Номер: " + thirdPhone.getNumber());
