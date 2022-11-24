@@ -1,4 +1,4 @@
-package com.company.ppj;
+package com.company.ppj.ppj1;
 
 import java.util.Scanner;
 
