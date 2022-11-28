@@ -7,11 +7,15 @@ public class MainMatrix {
         int [][] b = {{1, 0}, {5, -2}};
         Matrix firstMatrix = new Matrix(a);
         Matrix secondMatrix = new Matrix(b);
+        System.out.println(firstMatrix);
+        System.out.println(secondMatrix);
 
+        System.out.println("Сума двух матриц");
         System.out.println(firstMatrix.suma(secondMatrix));
-        //Matrix.suma(firstMatrix, secondMatrix);
-        Matrix.mnozhenieNaChislo(firstMatrix, 3);
-        Matrix.mnozhenie(firstMatrix, secondMatrix);
-
+        int x = 3;
+        System.out.println("Умножение на число на " + x );
+        System.out.println(firstMatrix.multiplyByNumber(x));
+        System.out.println("Умножение двух матриц");
+        System.out.println(firstMatrix.multiply(secondMatrix));
     }
     }
