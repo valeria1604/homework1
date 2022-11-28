@@ -1,6 +1,4 @@
-package com.company.ppj.ppj1;
-
-import java.util.Scanner;
+package com.company.ppj.ppjtest;
 
 public class test {
     public static void main(String[] args) {
