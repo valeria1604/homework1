@@ -2,7 +2,7 @@ package com.company.ppj.ppj11;
 
 import java.util.Arrays;
 
-public class Arrays1and2Exercises {
+public class Exercises1and2Array {
     public static void main(String[] args) {
         int[] array = {10, 9, 1, 7, 4, 2, 5, 2, 34, 5, 8};
         firstExercise(array);

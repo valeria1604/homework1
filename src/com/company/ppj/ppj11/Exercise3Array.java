@@ -9,7 +9,7 @@ package com.company.ppj.ppj11;
 //          ****
 //         *****
 
-public class Array3Exercise {
+public class Exercise3Array {
     public static void main(String[] args) {
         int[] arr = {1, 5, 8, 2, 6};
 
